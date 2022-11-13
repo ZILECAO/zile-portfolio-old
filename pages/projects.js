@@ -6,19 +6,76 @@ import Link from 'next/link'
 export default function Projects() {
   return (
     <section class="text-white ">
-      
+
       {/* Main Body Element */}
       <div class="px-4 pt-12 pb-32 mx-auto max-w-screen-xl sm:px-6 lg:px-8">
+
         <div class="max-w-lg mx-auto text-center">
           <h2 class="text-3xl font-extrabold text-transparent sm:text-5xl bg-clip-text bg-gradient-to-r from-green-500 via-blue-400 to-purple-700">
-          Projects {"\n"} 
+            Projects {"\n"}
           </h2>
+        </div>
+
+        <p class="mt-12 text-xl text-white font-bold">
+          Hackathon Submissions
+        </p>
+
+
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+          <a
+            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://github.com/ZILECAO/easyA-hackathon"
+          >
+            <svg class="h-8 w-8 text-indigo-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="3" />  <line x1="3" y1="10" x2="21" y2="10" />  <line x1="7" y1="15" x2="7.01" y2="15" />  <line x1="11" y1="15" x2="13" y2="15" /></svg>
+
+
+            <h3 class="mt-4 text-xl font-bold text-white">EasyA x Tron Hackathon at Harvard 2022</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Built a payment-splitting dApp on the Tron blockchain network. Check out the demo and slide deck in the description of the Github!
+
+            </p>
+          </a>
+
+          <a
+            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://github.com/ZILECAO/w3b-hackathon"
+          >
+            <svg class="h-8 w-8 text-red-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <circle cx="12" cy="13" r="7" />  <polyline points="12 10 12 13 14 13" />  <line x1="7" y1="4" x2="4.25" y2="6" />  <line x1="17" y1="4" x2="19.75" y2="6" /></svg>
+
+
+            <h3 class="mt-4 text-xl font-bold text-white">Penn Web3 Builders Hackathon Fall 2022</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Built a hub for student note sharing utilizing IPFS for decentralized storage and smart contracts for token donation incentives
+
+            </p>
+          </a>
+
+          <a
+            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://gateway.pinata.cloud/ipfs/QmbyLk6E2YRWWgDtUGax5XahZgJ4g3DaSgtpypkkVU1zdu"
+          >
+            <svg class="h-8 w-8 text-pink-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z" />
+            </svg>
+
+            <h3 class="mt-4 text-xl font-bold text-white">Baker Retail Center Metaverse Ideathon 2022</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Created a slide deck to pitch customer retention models for MCM luxury retail brand using blockchain-related solutions
+
+            </p>
+          </a>
+
         </div>
 
 
         <p class="mt-6 text-xl text-white font-bold">
-            Blogs
-          </p>
+          Blogs
+        </p>
+
+
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
@@ -33,7 +90,7 @@ export default function Projects() {
             <h3 class="mt-4 text-xl font-bold text-white">The Full Guide on how to Develop and Deploy a Simple Escrow Marketplace Smart Contract</h3>
 
             <p class="mt-1 text-sm text-gray-400">
-            Published a Web3 development guide on the BridXe Medium Publication, gaining 3,800+ impressions on Twitter and applaud from dev influencers
+              Published a Web3 development guide on the BridXe Medium Publication, gaining 3,800+ impressions on Twitter and applaud from dev influencers
 
             </p>
           </a>
@@ -50,7 +107,7 @@ export default function Projects() {
             <h3 class="mt-4 text-xl font-bold text-white">How Web3 Can Transform Personal Data Ownership</h3>
 
             <p class="mt-1 text-sm text-gray-400">
-            Published a blog post for the Weavechain publication on Medium; includes a webinar interview with Iain Henderson, Founder of DataYogi.
+              Published a blog post for the Weavechain publication on Medium; includes a webinar interview with Iain Henderson, Founder of DataYogi.
             </p>
           </a>
 
@@ -71,15 +128,15 @@ export default function Projects() {
             </p>
           </a>
 
-          
+
         </div>
 
 
 
         <p class="mt-12 text-xl text-white font-bold">
-            Websites
+          Websites
         </p>
-        
+
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
@@ -94,7 +151,7 @@ export default function Projects() {
             <h3 class="mt-4 text-xl font-bold text-white">MetaManor NFTs</h3>
 
             <p class="mt-1 text-sm text-gray-400">
-             Launched MetaManor NFT collection using the ERC-721 smart contract and built minting webpage with WebFlow.
+              Launched MetaManor NFT collection using the ERC-721 smart contract and built minting webpage with WebFlow.
 
             </p>
           </a>
@@ -111,52 +168,18 @@ export default function Projects() {
             <h3 class="mt-4 text-xl font-bold text-white">Arctic Penguins NFTs</h3>
 
             <p class="mt-1 text-sm text-gray-400">
-            Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea;
-            created a minting website using React and the Ethereum Hardhat development environment. 
+              Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea;
+              created a minting website using React and the Ethereum Hardhat development environment.
 
             </p>
           </a>
-          </div>
-
-          <p class="mt-12 text-xl text-white font-bold">
-            Hackathon Submissions
-        </p>
-        
-
-        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <a
-            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
-            href="https://youtu.be/qpnThqLB7Gk"
-          >
-            <svg class="h-8 w-8 text-red-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <circle cx="12" cy="13" r="7" />  <polyline points="12 10 12 13 14 13" />  <line x1="7" y1="4" x2="4.25" y2="6" />  <line x1="17" y1="4" x2="19.75" y2="6" /></svg>
+        </div>
 
 
-            <h3 class="mt-4 text-xl font-bold text-white">Penn Web3 Builders Hackathon Fall 2022</h3>
 
-            <p class="mt-1 text-sm text-gray-400">
-             Built a hub for student note sharing utilizing IPFS for decentralized storage and smart contracts for token donation incentives
 
-            </p>
-          </a>
 
-          <a
-            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
-            href="https://gateway.pinata.cloud/ipfs/QmbyLk6E2YRWWgDtUGax5XahZgJ4g3DaSgtpypkkVU1zdu"
-          >
-            <svg class="h-8 w-8 text-pink-300"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 117.072 0l-.548.547A3.374 3.374 0 0014 18.469V19a2 2 0 11-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"/>
-            </svg>
 
-            <h3 class="mt-4 text-xl font-bold text-white">Baker Retail Center Metaverse Ideathon 2022</h3>
-
-            <p class="mt-1 text-sm text-gray-400">
-             Created a slide deck to pitch customer retention models for MCM luxury retail brand using blockchain-related solutions
-
-            </p>
-          </a>
-
-          </div>
-        
       </div>
 
     </section>

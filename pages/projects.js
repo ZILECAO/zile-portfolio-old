@@ -32,7 +32,7 @@ export default function Projects() {
             <h3 class="mt-4 text-xl font-bold text-white">EasyA x Tron Hackathon at Harvard 2022</h3>
 
             <p class="mt-1 text-sm text-gray-400">
-              Built a payment-splitting dApp on the Tron blockchain network. Check out the demo and slide deck in the description of the Github!
+              4th place submission: built a payment-splitting dApp on the Tron blockchain network. Check out the demo and slide deck in the description of the Github! Won $8,000 in prizes
 
             </p>
           </a>

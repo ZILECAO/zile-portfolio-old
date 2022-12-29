@@ -17,7 +17,67 @@ export default function Projects() {
         </div>
 
         <p class="mt-12 text-xl text-white font-bold">
-          Hackathon Submissions
+          Personal Projects
+        </p>
+
+
+        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3 ">
+          <a
+            class="animate-pulse block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://web3-tweet-generator.vercel.app/"
+          >
+            <svg class="h-8 w-8 text-teal-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <path d="M8 16v-4a4 4 0 0 1 8 0v4" />  <path d="M3 12h1M12 3v1M20 12h1M5.6 5.6l.7 .7M18.4 5.6l-.7 .7" />  <rect x="6" y="16" width="12" height="4" rx="1" /></svg>
+
+
+            <h3 class="mt-4 text-xl font-bold text-white">Web3 Tweet Generator</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Built a web app that generates detailed Twitter threads about Web3 technologies using the OpenAI GPT-3 API
+
+            </p>
+          </a>
+
+
+          <a
+            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://www.metamanor.art/"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6 text-purple-500">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
+            </svg>
+
+
+            <h3 class="mt-4 text-xl font-bold text-white">MetaManor NFTs</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Launched MetaManor NFT collection using the ERC-721 smart contract and built minting webpage with WebFlow.
+
+            </p>
+          </a>
+
+          <a
+            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
+            href="https://friendly-blini-65db18.netlify.app/"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-yellow-500">
+              <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
+            </svg>
+
+
+            <h3 class="mt-4 text-xl font-bold text-white">Arctic Penguins NFTs</h3>
+
+            <p class="mt-1 text-sm text-gray-400">
+              Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea;
+              created a minting website using React and the Ethereum Hardhat development environment.
+
+            </p>
+          </a>
+        </div>
+
+
+
+        <p class="mt-12 text-xl text-white font-bold">
+          Hackathons
         </p>
 
 
@@ -26,7 +86,7 @@ export default function Projects() {
             class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
             href="https://github.com/ZILECAO/easyA-hackathon"
           >
-            <svg class="h-8 w-8 text-indigo-500"  width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z"/>  <rect x="3" y="5" width="18" height="14" rx="3" />  <line x1="3" y1="10" x2="21" y2="10" />  <line x1="7" y1="15" x2="7.01" y2="15" />  <line x1="11" y1="15" x2="13" y2="15" /></svg>
+            <svg class="h-8 w-8 text-indigo-500" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">  <path stroke="none" d="M0 0h24v24H0z" />  <rect x="3" y="5" width="18" height="14" rx="3" />  <line x1="3" y1="10" x2="21" y2="10" />  <line x1="7" y1="15" x2="7.01" y2="15" />  <line x1="11" y1="15" x2="13" y2="15" /></svg>
 
 
             <h3 class="mt-4 text-xl font-bold text-white">EasyA x Tron Hackathon at Harvard 2022</h3>
@@ -71,7 +131,7 @@ export default function Projects() {
         </div>
 
 
-        <p class="mt-6 text-xl text-white font-bold">
+        <p class="mt-12 text-xl text-white font-bold">
           Blogs
         </p>
 
@@ -79,7 +139,7 @@ export default function Projects() {
 
         <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           <a
-            class="block p-8 border backdrop-brightness-75 border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10 animate-pulse"
+            class="block p-8 border backdrop-brightness-75 border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
             href="https://medium.com/bridxe/the-full-guide-on-how-to-develop-and-deploy-a-simple-escrow-marketplace-smart-contract-ab3e25919f75"
           >
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-slate-600">
@@ -133,47 +193,7 @@ export default function Projects() {
 
 
 
-        <p class="mt-12 text-xl text-white font-bold">
-          Websites
-        </p>
-
-
-        <div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
-          <a
-            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
-            href="https://www.metamanor.art/"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" class="w-6 h-6 text-purple-500">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 21v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21m0 0h4.5V3.545M12.75 21h7.5V10.75M2.25 21h1.5m18 0h-18M2.25 9l4.5-1.636M18.75 3l-1.5.545m0 6.205l3 1m1.5.5l-1.5-.5M6.75 7.364V3h-3v18m3-13.636l10.5-3.819" />
-            </svg>
-
-
-            <h3 class="mt-4 text-xl font-bold text-white">MetaManor NFTs</h3>
-
-            <p class="mt-1 text-sm text-gray-400">
-              Launched MetaManor NFT collection using the ERC-721 smart contract and built minting webpage with WebFlow.
-
-            </p>
-          </a>
-
-          <a
-            class="block p-8 backdrop-brightness-75 border border-gray-800 shadow-xl transition rounded-xl hover:shadow-blue-500/10 hover:border-blue-500/10"
-            href="https://friendly-blini-65db18.netlify.app/"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 text-yellow-500">
-              <path strokeLinecap="round" strokeLinejoin="round" d="M15.182 15.182a4.5 4.5 0 01-6.364 0M21 12a9 9 0 11-18 0 9 9 0 0118 0zM9.75 9.75c0 .414-.168.75-.375.75S9 10.164 9 9.75 9.168 9 9.375 9s.375.336.375.75zm-.375 0h.008v.015h-.008V9.75zm5.625 0c0 .414-.168.75-.375.75s-.375-.336-.375-.75.168-.75.375-.75.375.336.375.75zm-.375 0h.008v.015h-.008V9.75z" />
-            </svg>
-
-
-            <h3 class="mt-4 text-xl font-bold text-white">Arctic Penguins NFTs</h3>
-
-            <p class="mt-1 text-sm text-gray-400">
-              Generated 2222 unique pieces of artwork using the Hashlips Art Engine and deployed them to OpenSea;
-              created a minting website using React and the Ethereum Hardhat development environment.
-
-            </p>
-          </a>
-        </div>
+        
 
 
 
